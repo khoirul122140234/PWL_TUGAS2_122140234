@@ -1,8 +1,9 @@
 
 # **Create Order Saga - gRPC Microservices dengan Go**
 
-**Penulis**: KHOIRUL RIJAL WICAKSONO
+**NAMA**: KHOIRUL RIJAL WICAKSONO
 **NIM**: 122140234
+
 **Mata Kuliah**: Pemrograman Web Lanjut  
 **Institusi**: Institut Teknologi Sumatera
 
