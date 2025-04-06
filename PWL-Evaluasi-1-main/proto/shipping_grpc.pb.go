@@ -1,0 +1,1 @@
+// shipping_grpc.pb.go (simulasi hasil generate)

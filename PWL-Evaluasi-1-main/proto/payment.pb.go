@@ -1,0 +1,1 @@
+// payment.pb.go (simulasi hasil generate)

@@ -1,0 +1,1 @@
+// shipping.pb.go (simulasi hasil generate)

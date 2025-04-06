@@ -1,0 +1,25 @@
+syntax = "proto3";
+package order;
+option go_package = "create_order_saga/proto/order";
+
+service OrderService {
+  rpc CreateOrder(CreateOrderRequest) returns (CreateOrderResponse);
+  rpc CancelOrder(CancelOrderRequest) returns (CancelOrderResponse);
+}
+
+message CreateOrderRequest {
+  int64 user_id = 1;
+}
+
+message CreateOrderResponse {
+  string order_id = 1;
+  string status = 2;
+}
+
+message CancelOrderRequest {
+  string order_id = 1;
+}
+
+message CancelOrderResponse {
+  string status = 1;
+}
